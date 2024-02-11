@@ -1,0 +1,205 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+
+\begin{center}
+    \textbf{\Huge \scshape Tanvir Singh} \\ \vspace{1pt}
+    \small (905)921-5915 $|$ 
+    \href{mailto:singht48@mcmaster.ca}{\underline{singht48@mcmaster.ca}} $|$ 
+    \href{https://linkedin.com/in/singht48}{\underline{linkedin.com/in/singht48}} 
+    % \href{https://github.com/tanvir313}{\underline{github.com/tanvir313}}
+\end{center}
+
+
+% \section{Highlights of Qualifications}
+%     \resumeItemListStart
+%         \resumeItem{Enrolled in Level 3 of the 4-year Honors Computer Science Co-op program with a Minor in Information Systems at McMaster University.}
+%         \resumeItem{Strong programming skills in Python and JavaScript and exposure to many more languages and front-end, back-end and database technologies established through course work, projects and Co-op experiences.}
+%         \resumeItem{Developed excellent problem-solving, critical thinking and communication skills as a Software Developer Intern at Finance and Technology Consultants, Inc. }
+%         \resumeItem{Completed the Google Cybersecurity Professional Certificate with hands-on experience and in-depth knowledge of cybersecurity tools, technologies and concepts.}
+%       \resumeItemListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {McMaster University}{Hamilton, ON}
+      {B.A.Sc Computer Science Co-op (Minor in Information Systems)}{2021 -- 2025}
+      \resumeItemListStart
+        \resumeItem{Currently Enrolled in Year 3 (Junior Year) with a Cumulative GPA of 3.9 out of 4.0}
+        \resumeItem{Dean's Honour List recepient for Freshman and Sorphemore years}
+        \resumeItem{\textbf{Coursework}: Data Structures and Algorithms, Object Oriented Programming, Databases, Data Mining, Advanced Algorithms and Complexity, Information Security, Operating Systems, Systems Design and Analysis, Data Analytics, Software Design, Information Systems, Computer Architecture, Computer Networks and Security}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Software Developer Intern}{May 2023 -- August 2023}
+      {FT Consultants, Inc.}{West Palm Beach, FL, USA}
+      \resumeItemListStart
+        \resumeItem{Developed multiple full-stack web applications using React, Node, Express, and MongoDB working with a dynamic team of software engineers using the Agile methodology.}
+        \resumeItem{Collaborated with the QA team to successfully identify and troubleshoot over 50 critical issues.}
+        \resumeItem{Designed and developed a dynamic and interactive UI using JavaScript, React.js and Bootstrap enabling real-time updates and improving overall user interaction improving user retention rate by 45\%. }
+        \resumeItem{Implemented a secure user authentication and file management API, allowing users to upload sensitive documents through the application's interface leading to a 30\% increase in operational efficiency.}
+        \resumeItem{Drafted 10+ design and technical specification documents and displayed excellent verbal communication skills in daily stand-up meetings resulting in a 20\% increase in the team's development efficiency.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{MoneyMachine} $|$ \emph{Python, TensorFlow, NumPy, scikit-learn, Pandas}}{}
+          \resumeItemListStart
+            \resumeItem{Developed MoneyMachine, a robust stock market prediction model leveraging LSTM neural network architecture.}
+            \resumeItem{Incorporated feature engineering techniques to preprocess and transform raw data into meaningful input features for the LSTM model.}
+            \resumeItem{Conducted thorough backtesting and validation to assess the model's predictive accuracy and evaluate its performance across different market conditions.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{ScribbleScan} $|$ \emph{JavaScript, Python, React, Django, TensorFlow, Pandas, Numpy}}{}
+          \resumeItemListStart
+            \resumeItem{Developed ScribbleScan, a web application utilizing neural network technology for handwriting recognition.}
+            \resumeItem{Utilized TensorFlow to train and deploy the neural network model after rigorous testing and validation.}
+            \resumeItem{Designed an intuitive user interface using React for seamless image upload and display of recognized text output.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {Machine Learning Specialization}{January 2024}
+        {Stanford University, DeepLearning.ai}{}
+        \resumeItemListStart
+            \resumeItem{Acquired proficiency in foundational machine learning concepts, including supervised learning, unsupervised learning, deep learning, data preprocessing, feature engineering, regularization, optimization, and more.}
+            \resumeItem{Implemented machine learning algorithms like regression, k-means clustering, KNN, neural networks and more both from scratch and using Pandas, NumPy, scikit-learn, TensorFlow, and Keras.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {Cybersecurity Professional Certificate}{June 2023}
+        {Google}{}
+        \resumeItemListStart
+            \resumeItem{Gained hands-on experience with industry-leading security tools such as Splunk, Chronicle, WireShark, Suricata, and tcpdump and a deep understanding of network principles, network architecture, firewalls, VPNs, TCP/IP, HTTP and more.}
+            % \resumeItem{Gained understanding of the CIA triad and NIST's CSF, network security principles, including network architecture, firewalls, VPNs, and secure protocols. Proficient in implementing access controls, intrusion prevention systems (IPS), and distributed denial-of-service (DDoS) protection mechanisms.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, HTML/CSS, C, SQL, ARM Assembly, R} \\
+     \textbf{Libraries and Frameworks}{: React.js, Node.js, Express.js, NumPy, TensorFlow, scikit-learn, Pandas} \\
+     \textbf{Technologies}{: MongoDB, Git, Bash, WireShark, tcpdump, Tableau, JMP, Excel, JSON}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
+
